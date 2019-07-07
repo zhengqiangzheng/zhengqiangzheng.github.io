@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[js_spice_splice]]></title>
+    <title><![CDATA[js spice 与 splice 的区别]]></title>
     <url>%2F2019%2F07%2F07%2Fjs-spice-splice%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[splice 的使用删除指定数量的元素12345var arr = [1,2,3,4,5] ;arr.splice(3,2) ; //从第三个位置开始删除两个元素 ，会影响到原数组 [4, 5] 返回被删除的元素arr //[1, 2, 3]arr.splice(-1) //删除最后一个arr.splice(-arr.length)//删除所有 添加元素 语法：array.splice(starti,0,值1，值2…); 123var arr = [1,2,3,4,5] ;arr.splice(3,0,'小明','小强') //返回一个空数组 []arr //[1, 2, 3, "小明", "小强", 4, 5] 替换元素 其实和添加元素一摸一样，只是这里我删除几个然后我添加几个。哈哈 12var arr = [1,2,3,4,5]arr.splice(3,2,4.1,5.1) //我删除两个 然后添加两个4.1，5.1 [1, 2, 3, 4.1, 5.1] slice的使用截取字符串，slice(start,end),不包括end,对原数组不产生影响 1234var arr = [1,2,3,4,5]arr.slice(2,3) //从第二个位置，到第三个位置 不包括第三个位置 结果是 3arr.slice(-1) //倒数第一个 5arr.slice(-5) //[1,2,3,4,5]]]></content>
       <categories>
         <category>前端</category>
       </categories>
