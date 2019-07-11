@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="后端,">
+  <meta name="keywords" content="前端,">
 
 
 
@@ -86,15 +86,20 @@
 
 
 
-<meta name="keywords" content="后端">
+<meta name="description" content="简单的跑马灯效果 使用定时器 ，可以学到定时器的应用 12345678910111213141516171819202122232425262728293031323334353637&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;">
+<meta name="keywords" content="前端">
 <meta property="og:type" content="article">
-<meta property="og:title" content="c#第一篇">
-<meta property="og:url" content="https://github.com/zhengqiangzheng/2019/07/02/test2/index.html">
+<meta property="og:title" content="vue 跑马灯">
+<meta property="og:url" content="https://github.com/zhengqiangzheng/2019/07/11/vue-跑马灯/index.html">
 <meta property="og:site_name" content="郑强">
+<meta property="og:description" content="简单的跑马灯效果 使用定时器 ，可以学到定时器的应用 12345678910111213141516171819202122232425262728293031323334353637&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-07T04:19:07.690Z">
+<meta property="og:image" content="https://github.com/images/111.png">
+<meta property="og:updated_time" content="2019-07-11T14:56:04.368Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="c#第一篇">
+<meta name="twitter:title" content="vue 跑马灯">
+<meta name="twitter:description" content="简单的跑马灯效果 使用定时器 ，可以学到定时器的应用 12345678910111213141516171819202122232425262728293031323334353637&amp;lt;!DOCTYPE html&amp;gt;&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;&amp;lt;head&amp;gt;    &amp;lt;meta charset=&amp;quot;UTF-8&amp;quot;&amp;gt;">
+<meta name="twitter:image" content="https://github.com/images/111.png">
 
 
 
@@ -124,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/zhengqiangzheng/2019/07/02/test2/">
+  <link rel="canonical" href="https://github.com/zhengqiangzheng/2019/07/11/vue-跑马灯/">
 
 
 
 
 
-  <title>c#第一篇 | 郑强</title>
+  <title>vue 跑马灯 | 郑强</title>
   
 
 
@@ -290,7 +295,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/zhengqiangzheng/2019/07/02/test2/">
+    <link itemprop="mainEntityOfPage" href="https://github.com/zhengqiangzheng/2019/07/11/vue-跑马灯/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Zheng Qiang">
@@ -307,7 +312,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">c#第一篇</h1>
+          <h1 class="post-title" itemprop="name headline">vue 跑马灯</h1>
         
 
         <div class="post-meta">
@@ -319,8 +324,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-02T00:33:12+08:00">
-                2019-07-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-11T22:18:45+08:00">
+                2019-07-11
               </time>
             
 
@@ -342,8 +347,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/c-sharp/" itemprop="url" rel="index">
-                    <span itemprop="name">c sharp</span>
+                  <a href="/categories/vue/" itemprop="url" rel="index">
+                    <span itemprop="name">vue</span>
                   </a>
                 </span>
 
@@ -373,7 +378,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  199
                 </span>
               
 
@@ -410,7 +415,19 @@
       
 
       
-        
+        <p><code>简单的跑马灯效果</code></p>
+<p><code>使用定时器 ，可以学到定时器的应用</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;title&gt;Title&lt;/title&gt;</span><br><span class="line">    &lt;script src=&quot;../../js/vue.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;div id=&quot;app&quot;&gt;</span><br><span class="line">    &lt;input type=&quot;button&quot; value=&quot;浪起来&quot; @click=&quot;lang&quot;&gt;</span><br><span class="line">    &lt;input type=&quot;button&quot; value=&quot;稳住&quot; @click=&quot;wen&quot;&gt;</span><br><span class="line">    &lt;h4&gt;&#123;&#123;msg&#125;&#125;&lt;/h4&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    var vm = new Vue(&#123;</span><br><span class="line">        el: &apos;#app&apos;,</span><br><span class="line">        data: &#123;</span><br><span class="line">            msg: &quot;12345678&quot;,</span><br><span class="line">            intervalId: null</span><br><span class="line">        &#125;,</span><br><span class="line">        methods: &#123;</span><br><span class="line">            lang() &#123;</span><br><span class="line">                if (this.intervalId!=null) return;</span><br><span class="line">                this.intervalId = setInterval(() =&gt; &#123;</span><br><span class="line">                    this.msg = this.msg.substring(1) + this.msg.slice(1, 2)</span><br><span class="line">                &#125;, 400)</span><br><span class="line">            &#125;,</span><br><span class="line">            wen() &#123;</span><br><span class="line">                clearInterval(this.intervalId)</span><br><span class="line">                this.intervalId=null</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](/images/111.png)</span><br></pre></td></tr></table></figure>
+
+<img src="/images/111.png"> 
+
+
+
+
+
+
       
     </div>
     
@@ -456,7 +473,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/后端/" rel="tag"><i class="fa fa-google">后端</i></a>
+            <a href="/tags/前端/" rel="tag"><i class="fa fa-google">前端</i></a>
           
         </div>
       
@@ -469,8 +486,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/06/30/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2019/07/07/我的idea激活码/" rel="next" title="我的idea激活码">
+                <i class="fa fa-chevron-left"></i> 我的idea激活码
               </a>
             
           </div>
@@ -479,8 +496,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/07/js-spice-splice/" rel="prev" title="js spice 与 splice 的区别">
-                js spice 与 splice 的区别 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/07/11/博客内插入图片/" rel="prev" title="博客内插入图片">
+                博客内插入图片 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
