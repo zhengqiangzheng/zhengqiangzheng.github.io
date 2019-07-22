@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[c#解压文件]]></title>
+    <url>%2F2019%2F07%2F22%2Fc-%E8%A7%A3%E5%8E%8B%E6%96%87%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[12345678910111213141516public class UnitTest1 &#123; [TestMethod] public void TestMethod1() &#123; string path = @&quot;C:\Users\郑强\Desktop\testzip.zip&quot;; var pathRoot = Path.GetFileName(path); string resultpath = path.Replace(pathRoot, &quot;&quot;); resultpath = Path.Combine(resultpath, &quot;unzipresult&quot;, DateTime.Now.ToString(&quot;yyyy_MM_dd_hh_mm_ss&quot;)); ZipArchive zipArchive = ZipFile.Open(path, ZipArchiveMode.Update); zipArchive.ExtractToDirectory(resultpath); &#125; &#125; c# 解压指定文件夹的zip文件，并解压到新的根据时间生成的文件夹，有机会更新tar.gz的解压:slightly_smiling_face:]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>c#</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[博客内插入图片]]></title>
     <url>%2F2019%2F07%2F11%2F%E5%8D%9A%E5%AE%A2%E5%86%85%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%2F</url>
     <content type="text"><![CDATA[插入图片 插入本地图片 12![](/images/test.jpg)&lt;img src="/images/test.jpg"&gt; 插入网络图片 12![](网络图片地址)&lt;img src="网络图片地址"&gt;]]></content>
