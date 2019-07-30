@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[vue 自定义按键修饰符]]></title>
+    <url>%2F2019%2F07%2F30%2Fvue-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%89%E9%94%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6%2F</url>
+    <content type="text"><![CDATA[vue中自带了几个按键修饰符，比如说enter啥的，但是还有几个没有封装需要自己定义比如f2,你就得自己查f2的码值； 123456 &lt;input type="text" class="form-control" v-model="name" @keyup.enter="add"&gt;Vue.config.keycodes.f2 =113 &lt;input type="text" class="form-control" v-model="name" @keyup.f2="add"&gt;@keyup.f2="add"]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[c#解压文件]]></title>
     <url>%2F2019%2F07%2F22%2Fc-%E8%A7%A3%E5%8E%8B%E6%96%87%E4%BB%B6%2F</url>
     <content type="text"><![CDATA[12345678910111213141516public class UnitTest1 &#123; [TestMethod] public void TestMethod1() &#123; string path = @&quot;C:\Users\郑强\Desktop\testzip.zip&quot;; var pathRoot = Path.GetFileName(path); string resultpath = path.Replace(pathRoot, &quot;&quot;); resultpath = Path.Combine(resultpath, &quot;unzipresult&quot;, DateTime.Now.ToString(&quot;yyyy_MM_dd_hh_mm_ss&quot;)); ZipArchive zipArchive = ZipFile.Open(path, ZipArchiveMode.Update); zipArchive.ExtractToDirectory(resultpath); &#125; &#125; c# 解压指定文件夹的zip文件，并解压到新的根据时间生成的文件夹，有机会更新tar.gz的解压:slightly_smiling_face:]]></content>
