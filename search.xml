@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linux 免密码登录]]></title>
+    <url>%2F2019%2F08%2F17%2Flinux-%E5%85%8D%E5%AF%86%E7%A0%81%E7%99%BB%E5%BD%95%2F</url>
+    <content type="text"><![CDATA[linux 实现免密码登录ssh key 介绍 ssh key使用非对称加密方式生成公钥和私钥 私钥存放在本地~/.ssh目录 公钥可以对外公开，放在服务器的~/.ssh/authorized_keys 目录下（Linux） 在windows上通过xshell生成密钥免密码登录 Linux 我们要在我们的xshell上免密码登录的话就要在我们自己的Windows电脑生成一个rsa或者什么什么a 算法的 公钥和私钥 然后将公钥放在Linux authorized_keys文件中； 在Windows中生成公钥 ；在xshell中点击Tools &gt; user key maneger 然后生成公钥 可以设置密码也可以不用; 打开你的Linux服务器 ，进入 ~ /.ssh 目录 中然后创建authorized_keys touch ,如果有的话就不用创建了 ，将我们第一步生成的公钥 放入这个文件中 pub结尾的是公钥 最后xshell 点击这个服务器的属性 properties 然后选择登录方式 authentication 你就可以实现免密码登录你的服务器了哈哈； 在linux上登录另一台Linux上的服务器 ； 首先在Linux中生成 密钥很简单只需1 行命令即可 分别是 ssh-keygen -t rsa 然后命名你的key 最好也别用密码加密（在.ssh 文件夹下面操作）； ssh-add ~/.ssh/aliyunkey 如果一台Linux要连接另一台Linux 需要在自己的.ssh/authorized_keys 中提供另一台的公钥；然后输入开始的那个命令就可以登陆了； 第二步可能是错的哦；不过应该差不了太多]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[vue 自定义按键修饰符]]></title>
     <url>%2F2019%2F07%2F30%2Fvue-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%89%E9%94%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6%2F</url>
     <content type="text"><![CDATA[vue中自带了几个按键修饰符，比如说enter啥的，但是还有几个没有封装需要自己定义比如f2,你就得自己查f2的码值； 123456 &lt;input type="text" class="form-control" v-model="name" @keyup.enter="add"&gt;Vue.config.keycodes.f2 =113 &lt;input type="text" class="form-control" v-model="name" @keyup.f2="add"&gt;@keyup.f2="add"]]></content>
