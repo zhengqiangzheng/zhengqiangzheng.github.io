@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[vim 基本命令]]></title>
+    <url>%2F2019%2F08%2F18%2Fvim-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[移动到第一行 连续按两下g 即 gg 移动到最后一行的行首 按下大写的G 删除当前行 按两下小写的g 撤销操作 按下小写的u 复制一行 按下yy 然后按一下p head 文件名 从头部开始读文件 tail 尾部 cat 读取整个文件 more 可控分页 跳到指定行 :12 跳到第12 行 或者在打开时 vim +n filename grep 222 -n sample 在samp 文件中有哪些包含222 的地方 并显示 行号]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux 常用命令]]></title>
     <url>%2F2019%2F08%2F17%2Flinux-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[查看内存 ： free -m 查看磁盘大小 ：df -h w top 查看负载 1 就是满负载 一把都是0.00 0.0+ 哈哈 按了top 长按q键退出哦 查看cpu 信息 cat /proc/cpuinfo 文件操作的命令 mkdir -p test/test1/test2 删除文件夹 rm -rf test touch 创建文件 复制 rm ./test.log ~/test2.log 将当前文件夹下的test.log 文件移动到 根目录下命名为test2.log rm ./test.log ~/test2.log 剪切 pwd 显示路径 下一个好像是vim 文本编辑神器:smile:]]></content>
