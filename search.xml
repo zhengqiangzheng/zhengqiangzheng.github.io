@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[linux 系统用户操作命令]]></title>
+    <url>%2F2019%2F08%2F20%2Flinux-%E7%B3%BB%E7%BB%9F%E7%94%A8%E6%88%B7%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[useradd| 添加用户 adduser| 添加用户 userdel| 删除用户 passwd| 设置密码]]></content>
+      <categories>
+        <category>linux</category>
+      </categories>
+      <tags>
+        <tag>系统</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[vim 基本命令]]></title>
     <url>%2F2019%2F08%2F18%2Fvim-%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[移动到第一行 连续按两下g 即 gg 移动到最后一行的行首 按下大写的G 删除当前行 按两下小写的g 撤销操作 按下小写的u 复制一行 按下yy 然后按一下p head 文件名 从头部开始读文件 tail 尾部 cat 读取整个文件 more 可控分页 跳到指定行 :12 跳到第12 行 或者在打开时 vim +n filename grep 222 -n sample 在samp 文件中有哪些包含222 的地方 并显示 行号]]></content>
