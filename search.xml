@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[html标签]]></title>
+    <url>%2F2019%2F08%2F26%2Fhtml%E6%A0%87%E7%AD%BE%2F</url>
+    <content type="text"><![CDATA[div : division 1）&lt;b&gt;&lt;/b&gt;&lt;strong&gt;&lt;/strong&gt;文本以粗体方式显示，推荐使用strong2）&lt;i&gt;&lt;/i&gt;&lt;em&gt;&lt;/em&gt;文本以斜体方式显示，推荐使用em3）&lt;s&gt;&lt;/s&gt;&lt;del&gt;&lt;/del&gt;文本以加删除线方式显示，推荐使用del4）&lt;u&gt;&lt;/u&gt; &lt;ins&gt;&lt;ins&gt; |文本以加下划线方式显示，推荐使用ins u只有使用，没有强调的意思注意strong em del ins 语义更强烈 `` &lt;a href=&quot;javascript:;&quot;&gt;无跳转&lt;a/&gt; 特殊字符]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[linux 系统用户操作命令]]></title>
     <url>%2F2019%2F08%2F20%2Flinux-%E7%B3%BB%E7%BB%9F%E7%94%A8%E6%88%B7%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[useradd| 添加用户 adduser| 添加用户 userdel| 删除用户 passwd| 设置密码]]></content>
