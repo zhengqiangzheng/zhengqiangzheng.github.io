@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[aconda 更新Python版本]]></title>
     <url>%2F2020%2F01%2F12%2Faconda-%E6%9B%B4%E6%96%B0Python%E7%89%88%E6%9C%AC%2F</url>
-    <content type="text"><![CDATA[conda updata python conda list :查看安装的所有包 1234567891011121314#在不影响当前版本的情况下,新建环境并安装不同版本的python#新建一个Python版本为3.6 名称为 py36 的环境conda create -n py36 python=3.6 anaconda#注:将py36替换为您要创建的环境的名称。 anaconda是元数据包，带这个会把base的基础包一起安装，不带的话新环境只包含python3.6相关的包。 python = 3.6是您要在此新环境中安装的软件包和版本。 这可以是任何包，例如numpy = 1.7，或多个包。#然后激活想要使用的环境即可conda activate py36#更新Python# 普通的更新pythonconda update python# 将python更新到另外一个版本/安装指定版本的pythonconda install python=3.6]]></content>
+    <content type="text"><![CDATA[conda updata python conda list :查看安装的所有包 1234567891011121314#在不影响当前版本的情况下,新建环境并安装不同版本的python#新建一个Python版本为3.6 名称为 py36 的环境conda create -n py36 python=3.6 anaconda#注:将py36替换为您要创建的环境的名称。 anaconda是元数据包，带这个会把base的基础包一起安装，不带的话新环境只包含python3.6相关的包。 python = 3.6是您要在此新环境中安装的软件包和版本。 这可以是任何包，例如numpy = 1.7，或多个包。#然后激活想要使用的环境即可conda activate py36#更新Python# 普通的更新pythonconda update python# 将python更新到另外一个版本/安装指定版本的pythonconda install python=3.6 xixi]]></content>
       <categories>
         <category>后端</category>
       </categories>
