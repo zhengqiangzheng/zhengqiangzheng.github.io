@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[aconda 更新Python版本]]></title>
+    <url>%2F2020%2F01%2F12%2Faconda-%E6%9B%B4%E6%96%B0Python%E7%89%88%E6%9C%AC%2F</url>
+    <content type="text"><![CDATA[conda updata python conda list :查看安装的所有包 1234567891011121314#在不影响当前版本的情况下,新建环境并安装不同版本的python#新建一个Python版本为3.6 名称为 py36 的环境conda create -n py36 python=3.6 anaconda#注:将py36替换为您要创建的环境的名称。 anaconda是元数据包，带这个会把base的基础包一起安装，不带的话新环境只包含python3.6相关的包。 python = 3.6是您要在此新环境中安装的软件包和版本。 这可以是任何包，例如numpy = 1.7，或多个包。#然后激活想要使用的环境即可conda activate py36#更新Python# 普通的更新pythonconda update python# 将python更新到另外一个版本/安装指定版本的pythonconda install python=3.6]]></content>
+      <categories>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[css 进阶]]></title>
+    <url>%2F2019%2F08%2F27%2Fcss-%E8%BF%9B%E9%98%B6%2F</url>
+    <content type="text"><![CDATA[font-weight : 400 是正常 700 是bold 虽然没啥用但可以吹牛逼 text-indent : 首行缩进 1 em代表一个汉字 word-space : 仅对单词有效 letter-space ： 对单词汉字都有效 浮动特性 ： 总则：浮动会脱离标准流，不会占位置，但会影响标准流特性； 特性1：浮动的元素总是找离它最近的父级元素对齐；但是不会超出内边距的范围。 特性2：浮动的元素排列位置，跟上一个块级元素有关图示； 特性3：一个父盒子里面的子盒子如果需要一行对齐，只要其中一个子级有浮动，那么其它子级都需要浮动，这样才能一行对齐显示。 margin : 0 auto div水平居中]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[html标签]]></title>
     <url>%2F2019%2F08%2F26%2Fhtml%E6%A0%87%E7%AD%BE%2F</url>
-    <content type="text"><![CDATA[div : division 1）&lt;b&gt;&lt;/b&gt;&lt;strong&gt;&lt;/strong&gt;文本以粗体方式显示，推荐使用strong2）&lt;i&gt;&lt;/i&gt;&lt;em&gt;&lt;/em&gt;文本以斜体方式显示，推荐使用em3）&lt;s&gt;&lt;/s&gt;&lt;del&gt;&lt;/del&gt;文本以加删除线方式显示，推荐使用del4）&lt;u&gt;&lt;/u&gt; &lt;ins&gt;&lt;ins&gt; |文本以加下划线方式显示，推荐使用ins u只有使用，没有强调的意思注意strong em del ins 语义更强烈 `` &lt;a href=&quot;javascript:;&quot;&gt;无跳转&lt;a/&gt; 特殊字符]]></content>
+    <content type="text"><![CDATA[div : division 1）&lt;b&gt;&lt;/b&gt;&lt;strong&gt;&lt;/strong&gt;文本以粗体方式显示，推荐使用strong2）&lt;i&gt;&lt;/i&gt;&lt;em&gt;&lt;/em&gt;文本以斜体方式显示，推荐使用em3）&lt;s&gt;&lt;/s&gt;&lt;del&gt;&lt;/del&gt;文本以加删除线方式显示，推荐使用del4）&lt;u&gt;&lt;/u&gt; &lt;ins&gt;&lt;ins&gt; |文本以加下划线方式显示，推荐使用ins u只有使用，没有强调的意思注意strong em del ins 语义更强烈 `` &lt;a href=&quot;javascript:;&quot;&gt;无跳转&lt;a/&gt; 特殊字符 上面的✖➗写反了🤭；]]></content>
       <categories>
         <category>前端</category>
       </categories>
